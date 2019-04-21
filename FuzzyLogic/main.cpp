@@ -65,5 +65,11 @@ int main()
 	std::cout << "Shotgun Desirability " << shotgunWeapon.GetDesirability(distance) << std::endl;
 	std::cout << "Sniper Desirability " << sniperWeapon.GetDesirability(distance) << std::endl;
 
+	std::cout << "Input a character to exit " << std::endl;
+
+	int v = 0;
+
+	std::cin >> v;
+
 	return 0;
 }
